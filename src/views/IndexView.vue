@@ -113,7 +113,7 @@ export default defineComponent({
 .img {
     background-size: contain;
     background-repeat: no-repeat;
-    width: 15vw;
+    width: 7vw;
     height: 20vh;
 }
 

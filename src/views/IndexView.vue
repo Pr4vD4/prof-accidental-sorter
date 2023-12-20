@@ -24,7 +24,7 @@ export default defineComponent({
         <CongratulationsMessage v-if="sorterGame.success"/>
 
         <div class="drag-item sharp text d-flex align-items-center text-center" data-target="sharp">
-            знак альтерации, обозначающий повышение стоящих справа от него нот на один хроматический полутон.
+            знак альтерации, обозначающий повышение стоящих справа от него нот на один хроматический полутон
         </div>
 
         <div class="drag-item flat text d-flex align-items-center text-center" data-target="flat">
@@ -32,7 +32,7 @@ export default defineComponent({
         </div>
 
         <div class="drag-item natural text d-flex align-items-center text-center" data-target="natural">
-            в музыкальной нотации знак альтерации, означающий отмену ранее назначенного бемоля или диеза для той ноты, перед которой он стоит. Действует до конца такта.
+            альтерации, означающий отмену ранее назначенного бемоля или диеза для той ноты, перед которой он стоит
         </div>
 
         <div class="drag-item sharp img" data-target="sharp"></div>

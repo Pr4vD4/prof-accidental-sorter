@@ -42,19 +42,6 @@ export function startDragNDrop(sorterGame) {
         dragItem.addEventListener('touchmove', drag)
         dragItem.addEventListener('touchend', checkContainerCollision)
 
-        let dragContainer = document.querySelector('#' + dragItem.dataset.target)
-        let dragContainerPositions = dragContainer.getBoundingClientRect()
-
-        let dragItemPosition = dragItem.getBoundingClientRect()
-
-        if (dragItemPosition.x >= dragContainerPositions.x &&
-            dragItemPosition.x < dragContainerPositions.x + dragContainerPositions.width &&
-            dragItemPosition.y + dragItemPosition.height / 2 > dragContainerPositions.y &&
-            dragItemPosition.y + dragItemPosition.height / 2 < dragContainerPositions.y + dragContainerPositions.height
-        ) {
-            collisionTarget(dragItem, sorterGame)
-        }
-
     })
 
     console.log(sorterGame)

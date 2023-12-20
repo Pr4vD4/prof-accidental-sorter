@@ -118,7 +118,7 @@ function fixToContainer(item) {
 
         anime({
             targets: item,
-            translateX: '12vw',
+            translateX: '15vw',
             translateY: `calc(${position.y + position.height / 2 - item.getBoundingClientRect().height / 2}px - 3rem)`
         })
 
@@ -126,7 +126,7 @@ function fixToContainer(item) {
         console.log(position)
         anime({
             targets: item,
-            translateX: '32vw',
+            translateX: '35vw',
             translateY: `calc(${position.y + position.height / 2 - item.getBoundingClientRect().height / 2}px - 3rem)`
         })
     }

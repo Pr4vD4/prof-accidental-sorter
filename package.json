@@ -20,6 +20,6 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0"
   },
-  "homepage": "https://github.com/Pr4vD4/prof-accidental-sorter",
-  "wst": "/dist/"
+  "wst": "/dist/",
+  "homepage": "https://github.com/Pr4vD4/prof-accidental-sorter"
 }

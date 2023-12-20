@@ -123,16 +123,24 @@ function collisionTarget(item, sorterGame) {
 }
 
 function fixToContainer(item) {
+
+    const container = document.querySelector('#'+item.dataset.target)
+    const position = container.getBoundingClientRect()
+
     if (item.classList.contains('img')) {
-        const container = document.querySelector('#'+item.dataset.target)
-        const position = container.getBoundingClientRect()
 
         anime({
             targets: item,
             translateX: '10vw',
-            translateY: position.y+'px'
+            translateY: position.y +'px'
         })
 
+    } else {
+        anime({
+            targets: item,
+            translateX: '30vw',
+            translateY: position.y + item.getBoundingClientRect().height / 2 +'px'
+        })
     }
 
 

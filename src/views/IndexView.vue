@@ -80,12 +80,12 @@ export default defineComponent({
 
 
 .text {
-    height: 12vh;
+    height: 14vh;
     width: 50vw;
     font-size: 2rem;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 1rem;
-
+    border: 1px rgba(0, 0, 0, 0.85) solid;
 }
 
 .drag-container {

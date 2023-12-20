@@ -32,7 +32,7 @@ export default defineComponent({
         </div>
 
         <div class="drag-item natural text d-flex align-items-center text-center" data-target="natural">
-            альтерации, означающий отмену ранее назначенного бемоля или диеза для той ноты, перед которой он стоит
+            знак альтерации, означающий отмену ранее назначенного бемоля или диеза для той ноты, перед которой он стоит
         </div>
 
         <div class="drag-item sharp img" data-target="sharp"></div>

@@ -24,7 +24,7 @@ export default defineComponent({
         <CongratulationsMessage v-if="sorterGame.success"/>
 
         <div class="drag-item sharp text d-flex align-items-center text-center" data-target="sharp">
-            Знак альтерации, обозначающий повышение стоящих справа от него нот на один хроматический полутон.
+            знак альтерации, обозначающий повышение стоящих справа от него нот на один хроматический полутон.
         </div>
 
         <div class="drag-item flat text d-flex align-items-center text-center" data-target="flat">
@@ -83,7 +83,7 @@ export default defineComponent({
     height: 14vh;
     width: 50vw;
     font-size: 2rem;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(82, 116, 150, 0.5);
     border-radius: 1rem;
     border: 1px rgba(0, 0, 0, 0.85) solid;
 }
